@@ -72,7 +72,7 @@ header
 .banner-project
     {
     position: relative;
-    top: 25%;
+    top: 10%;
     left: 34%;
     margin: 0;
     padding: 0;
@@ -82,7 +82,7 @@ header
     text-transform: uppercase;
     font-weight: bold;
     font-size: 45px;
-    font-family: 'Fondamento', cursive;
+    font-family: cursive;
     
     }
 
@@ -149,11 +149,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     
 }
-.wall-paper
-{
-    width: 100%;
-    
-}
+
 
 
 
