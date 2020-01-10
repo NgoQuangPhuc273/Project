@@ -4,30 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Đăng nhập</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="signUp.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     
     <form action="home.html" class="login-form">
-        <h1>Đăng nhập</h1>
+        <h1>Đăng ký</h1>
 
         <div class="txtb">
-            <input type="text" placeholder="Tên đăng nhập">
+            <input type="text" placeholder="Tên tài khoản mới">
             
         </div>
 
         <div class="txtb">
-            <input type="password" placeholder="Mật khẩu">
+            <input type="password" placeholder="Mật khẩu mới (trên 8 ký tự)">
             
         </div>
 
-        <input type="submit" class="logbtn" value="Đăng nhập">
-
-        <div class="bottom-text">
-            Chưa có tài khoản? <a href="signUp.html">Đăng kí ngay!</a>
+        <div class="txtb">
+            <input type="password" placeholder="Nhập lại mật khẩu">
+            
         </div>
+        <div class="txtb">
+            <input type="password" placeholder="Đường link facebook của bạn">
+            
+        </div>
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+
+        <input type="submit" class="logbtn" value="Đăng ký">
+
 
 
     </form>
