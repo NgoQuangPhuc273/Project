@@ -1,0 +1,21 @@
+#img1{
+    width: 15vw;
+    text-align: center;
+    padding: auto;
+}
+.ten{
+    display: inline-block;
+    margin: auto;
+    font-size: 4vw;
+}
+#list1{
+    list-style: none;
+}    
+.info{
+    font-size: 2vw;
+}
+#rating{
+    font-size: 8vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}    

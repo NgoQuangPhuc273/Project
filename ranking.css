@@ -70,21 +70,19 @@ header
      }
 
 .banner-project
-    {
+{
     position: relative;
-    top: 10%;
+    top: 25%;
     left: 34%;
     margin: 0;
     padding: 0;
     display: inline-block;
     transition: .5s;
     color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
     font-size: 45px;
-    font-family: cursive;
-    
-    }
+    font-family: 'Pacifico', cursive;
+
+}
 
 
 .search-box

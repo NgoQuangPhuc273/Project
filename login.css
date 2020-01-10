@@ -19,7 +19,7 @@ body{
     padding: 80px 40px;
     border-radius: 15px; 
     position: absolute;
-    border: rgb(31, 14, 14) solid 1.5px;
+    /* border: rgb(31, 14, 14) solid 1.5px; */
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
