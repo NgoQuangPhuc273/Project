@@ -77,19 +77,12 @@ header
 .banner-project
     {
     position: relative;
-    top: 10px;
-    
-    left: 34%;
-    margin: 5px;
+    top:  15px;
+    left: 32.5%;
     padding: 0;
     display: inline-block;
     transition: .5s;
-    color: #fff;
-    text-transform: uppercase;
-    /* font-weight: bold; */
-    font-size: 38px;
-    font-family: 'Gugi', cursive;
-    
+
     }
 
 .search-box
@@ -143,7 +136,9 @@ header
     color: rgb(180, 67, 67);
     
 }
-
+.poppop#blur.container#blur.active{
+    filter: blur(20px);
+}
 .container
 {
   width: 750px;
@@ -152,10 +147,14 @@ header
   justify-content: space-between;
   font-family: 'Merriweather', serif;
 }
+/* .container#blur.active
+{
+    filter: blur(20px);
+} */
 .container .card
 {
   position: relative;
-    left: 90%;
+    left: 90%;  
     font-family: 'Merriweather', serif;
 }
 .container .card .face
@@ -227,4 +226,216 @@ header
     background: rgb(58, 52, 52);
     color: #fff;
 }
+
+/* VOTINGGGGGGGGGGGGGGGGGGGGG */
+
+
+.container1
+{
+  width: 950px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Merriweather', serif;
+}
+.container1 .card
+{
+  position: relative;
+
+    left: 95%;
+    font-family: 'Merriweather', serif;
+    z-index: 1;
+    top: 10%;
+}
+.container1 .card .face
+{
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+.container1 .card .face.face1
+{
+  position: relative;
+  background:  rgb(139, 58, 58);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+.container1 .card:hover .face.face1{
+    background: rgb(68, 2, 2);
+    transform: translateY(0);
+}
+
+.container1 .card .face.face1 .content
+{
+    transition: 0.5s;
+
+}
+.container1 .card:hover .face.face1 .content{
+    opacity: 1;
+}
+.container1 .card .face.face1 .content h3{
+    margin: 10px 0 0;
+   padding: 0;
+   color: rgb(252, 228, 228);
+   text-align: center;
+   font-size: 1.5em; 
+}
+.container1 .card .face.face2
+{
+  position: relative;
+  background:  #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+.container1 .card:hover .face.face2{
+    transform: translateY(0);
+}
+.container1 .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 .card .face.face2 .content a {
+    margin:  15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(58, 52, 52);
+    padding: 5px;
+    border: 1px solid rgb(58, 52, 52);
+}
+.container1 .card .face.face2 .content a:hover{
+    background: rgb(58, 52, 52);
+    color: #fff;
+}
+
+#popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    
+}
+#popup a {
+    margin:  15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(58, 52, 52);
+    padding: 5px;
+    border: 1px solid rgb(58, 52, 52);
+
+}
+#popup a:hover{
+    background: rgb(58, 52, 52);
+    color: #fff;
+}
+#popup.active
+{   
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* 1111 */
+
+#popup1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    
+}
+#popup1 a {
+    margin:  15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(58, 52, 52);
+    padding: 5px;
+    border: 1px solid rgb(58, 52, 52);
+
+}
+#popup1 a:hover{
+    background: rgb(58, 52, 52);
+    color: #fff;
+}
+#popup1.active
+{   
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/* 22222222 */
+#popup2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    
+}
+#popup2 a {
+    margin:  15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(58, 52, 52);
+    padding: 5px;
+    border: 1px solid rgb(58, 52, 52);
+
+}
+#popup2 a:hover{
+    background: rgb(58, 52, 52);
+    color: #fff;
+}
+#popup2.active
+{   
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
 
