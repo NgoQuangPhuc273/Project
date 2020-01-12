@@ -77,13 +77,10 @@ header
 .banner-project
     {
     position: relative;
-    top: 0px;
     left: 32.5%;
     display: inline-block;
     transition: .5s;
-    color: #fff;
-    text-transform: uppercase;
-    top: 15px;
+    top: 20px;
     }
 
 .search-box
@@ -145,13 +142,14 @@ header
 
 .monhoc {
     padding: 10px;
-    width: 100%;
     height: 50px;
     box-sizing: border-box;
     color: white;
-    background: linear-gradient(120deg, rgb(133, 93, 93),rgb(180, 67, 67),rgb(58, 52, 52)  );
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Montserrat', cursive;
+    padding-left: 20px;
+    display: inline-block;
 }
 
 #danhsach>div {
@@ -189,4 +187,26 @@ header
 .danhgia {
     font-size: 13px;
     margin-bottom: 10px;
+}
+
+.xemtatca{
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    font-family: 'Montserrat', cursive;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.xemtatca:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.banner{
+    background: linear-gradient(120deg, rgb(133, 93, 93),rgb(180, 67, 67),rgb(58, 52, 52)  );
+    width: 100%;
 }
