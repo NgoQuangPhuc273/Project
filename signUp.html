@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Đăng ký</title>
     <link rel="stylesheet" href="signUp.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
@@ -52,6 +54,34 @@
         });
     </script>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDt8rSl_5MVRQftbg7axUb_XmMHy--jVRU",
+    authDomain: "ams-teacher-335f7.firebaseapp.com",
+    databaseURL: "https://ams-teacher-335f7.firebaseio.com",
+    projectId: "ams-teacher-335f7",
+    storageBucket: "ams-teacher-335f7.appspot.com",
+    messagingSenderId: "933613006172",
+    appId: "1:933613006172:web:062f320cbd9ddb002c6599"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
+
+
+
+  function checkData(){
+      var docRef = db.collection("cities")
+
+  }
+</script>
 </body>
 </html>
