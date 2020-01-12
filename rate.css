@@ -1,0 +1,162 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+/* section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Home/papers.co-mc71-wallpaper-milky-way-on-black-mountain-fuji-sky-29-wallpaper.jpg);
+    /* background-position: center; */
+/* } */
+
+header
+    {
+        padding: 0 100px;
+        width: 100%;
+        height: 80px;
+        box-sizing: border-box;
+        /* background: linear-gradient(120deg,#3949ab,#64ffda); */
+        background: linear-gradient(120deg,#471285,rgb(241, 55, 86), rgb(250, 250, 83));
+        box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+        transition: .5s;
+    }
+    ul
+    {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        float: right;
+        transition: .5s;
+     
+    }
+    li
+    {
+        list-style: none;
+    }
+    ul li a
+    {
+    position: relative;
+    display: block;
+    left: 70px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    height: 20px;
+    border-radius: 70px;
+    text-transform: uppercase;
+    text-decoration: none ;
+    font-weight: bold;
+    transition: .5s;   
+    color:  #fff;
+    
+    }
+    ul li a:hover
+    {
+    background: #fff; 
+    color: #3949ab;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    /* #b8b8b8, 0 0 40px #b8b8b8, 0 0 80 #b8b8b8 rgba(0, 0, 0, .2); */
+    transition-delay: .1s;
+    }
+
+    .sign-up{
+        font-size: 18px;
+     }
+
+.banner-project
+    {
+    position: relative;
+    top: 10%;
+    left: 34%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    transition: .5s;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: cursive;
+    
+    }
+
+
+.search-box
+{
+  position: absolute; 
+  top: 2%; 
+  left: 4%;
+  background: #fff; 
+  height: 30px;
+  border-radius: 40px;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, .2);
+
+}
+.search-box:hover > .search-txt
+{
+    width: 200px;
+    padding: 0 6px;
+}
+.search-btn{
+    color:  #3949ab;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, .2); */
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px ;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+    color:   #3949ab;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, .2); */
+}
+
+::placeholder 
+{
+    color: #3949ab;
+    
+}
+
+.line{
+    width: 100%;
+    height: 47px;
+    border-bottom: 3px solid #3949ab;
+    /* position: absolute; */
+    }
+
+h1{
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.
+
+
+
+
+
+
+
+
+
+
