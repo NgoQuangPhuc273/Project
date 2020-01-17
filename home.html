@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 
@@ -24,32 +25,31 @@
                 <li class="sign-up"><a href="login.html"><i class="far fa-user-circle"></i></a></li>
             </ul>
             <div class="banner-project">
-                Ams Teacher
+                <img width="400px" src="Untitled-1.png" alt="">
                 
             </div>
             <div></div>
             <div class="search-box">
-                <input class="search-txt" type="text" name="" placeholder="Tìm kiếm giáo viên">
-                <a class="search-btn" href="#">
+                <input class="search-txt" type="text" name="" placeholder="Tìm kiếm giáo viên" >
+                <a class= "search-btn" href="#">
                     <i class="fas fa-search"></i>
                 </a>
             </div>
             
         </header>
         <br>
-       
-        
+        <br>
             <div class="container">
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <h3>Introduction</h3>
+                            <h3>Giới thiệu</h3>
                         </div>
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>Description các thứ chưa nghĩ ra</p>
-                            <a href="#">Read more</a>
+                            <p>Ams Teachers được xây dựng với mục đích....</p>
+                            <a href="#" onclick="toggle()">Tìm hiểu thêm</a>
                         </div>
                     </div>
                     
@@ -57,40 +57,112 @@
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <h3>Rankings</h3>
+                            <h3>Xếp hạng</h3>
                         </div>
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>Đây là trang rank của méo</p>
-                            <a href="ranking.html">Read more</a>
+                            <p>Ai sẽ là giáo viên được Amser yêu quý nhất?....</p>
+                            <a href="#" onclick="toggle3()">Tìm hiểu thêm</a>
                         </div>
                     </div>
+                    
                 </div>
             </div>
-            <div class="container">
+            <div class="container1">
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <h3>Voting</h3>
+                            <h3>Đánh giá</h3>
                         </div>
                     </div>
                     <div class="face face2">
                         <div class="content">
-                            <p>Đây là trang vote của cảnh</p>
-                            <a href="ranking.html">Read more</a>
+                            <p>Tự đánh giá theo trải nghiệm bản thân hoặc....</p>
+                            <a href="#" onclick="toggle1()">Tìm hiểu thêm</a>
                         </div>
                     </div>
                 </div>
+                <div id="popup1">
+                    <h2>Đánh giá</h2>
+                    <p>Nội dung các thứ các thứ
+                        - Thật ra thì chức năng của thuộc tính class cũng gần giống với thuộc tính id,
+                         đó chính là dùng để đặt tên cho phần tử. Tuy nhiên, việc đặt tên class khác với tên id ở chỗ 
+                         là với cùng một tên class thì chúng ta có thể dùng để đặt cho nhiều phần tử khác nhau 
+                         (nếu so sánh một phần tử trong trang web giống như một người công dân Việt Nam thì tên class cũng giống 
+                         như một cái biệt danh, mà biệt danh thì có thể dùng để đặt cho nhiều người khác nhau)
+    
+                        - Để khai báo class cho một phần tử thì chúng ta đặt thuộc
+                         tính class vào bên trong thẻ mở của phần tử với cú pháp class="tên class". 
+                         Sau khi đã khai báo class, nếu muốn định dạng cho phần tử thì chúng ta chỉ cần gọi thẳng tên class của nó 
+                         với cú pháp .tên class
+                    </p>
+                    <a href="#" onclick="toggle1()">Đóng</a>
+                </div>
+                <script type="text/javascript">
+                    function toggle1()
+                    {
+                        var popup1 = document.getElementById('popup1');
+                        console.log(popup1);
+                        
+                        popup1.classList.toggle('active');
+                    }
+                </script>
             </div>
+
+
+            <div id="popup">
+                <h2>Tổng quan dự án</h2>
+                <p>
+                    Ams Teachers được xây dựng với mục đích giúp những em khóa dưới sắp theo học ở trường Ams có sự chuẩn bị tốt nhất cho bản thân qua hệ thống đánh giá dựa trên trải nghiệm của những anh chị khóa trên với các thầy cô trong trường.
+                </p>
+                <p>
+                    Qua Ams Teachers, các em không chỉ có được cái nhìn khách quan nhất về không chỉ về những giáo viên trong trường mà còn cả 1 bức tranh thu nhỏ của 3 năm cấp 3 ở Ams, 1 xã hội thu nhỏ muôn màu đang đợi trước mắt. 
+                </p>
+                <a href="#" onclick="toggle()">Đóng</a>
+            </div>
+            <div id="popup2">
+                <h2>Xếp hạng</h2>
+                <p>Nội dung các thứ các thứ
+                    The HTML Certificate documents your knowledge of HTML.
+
+                    The CSS Certificate documents your knowledge of advanced CSS.
+
+                    The JavaScript Certificate documents your knowledge of JavaScript and HTML DOM.
+
+                    The Python Certificate documents your knowledge of Python.
+
+                    The jQuery Certificate documents your knowledge of jQuery.
+
+                    The SQL Certificate documents your knowledge of SQL.
+
+                    The PHP Certificate documents your knowledge of PHP and MySQL.
+
+                    The XML Certificate documents your knowledge of XML, XML DOM and XSLT.
+
+                    The Bootstrap Certificate documents your knowledge of the Bootstrap framework.
+                </p>
+                <a href="#" onclick="toggle3()">Đóng</a>
+            </div>
+            <script type="text/javascript">
+                function toggle3()
+                {
+                    var popup2 = document.getElementById('popup2');
+                    console.log(popup2);
+                    
+                    popup2.classList.toggle('active');
+                }
+            </script>
             
-                  
-       
-           
-    </section>
-   
+            <script type="text/javascript">
+                function toggle()
+                {
+                    var popup = document.getElementById('popup');
+                    popup.classList.toggle('active');
+                }
+            </script>
+        
          
-    
-    
+    </section>
 </body>
 </html>
