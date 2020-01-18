@@ -161,9 +161,8 @@ ul li a:hover {
 .clearfix .thongtin {
     display: inline-block;
     margin-left: 15px;
-    /* margin-top: 10px; */
-    position: relative;
-    top: -154px;
+    padding-bottom: 30px;
+    position: static;
 }
 
 .table{
