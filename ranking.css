@@ -151,28 +151,46 @@ ul li a:hover {
     width: 170px;
     height: 170px;
     display: inline-block;
-    float: left;
+    /* float: left; */
 }
 
-.thongtin {
+.clearfix{
+    width: auto;
+}
+
+.clearfix .thongtin {
     display: inline-block;
     margin-left: 15px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    position: relative;
+    top: -154px;
 }
 
-.ten {
+.table{
+    position: relative;
+    top: -22px;
+}
+
+.table #ten {
     font-size: 30px;
+    padding-top: 21px;
 }
 
 .ranking {
     font-size: 13px;
     color: rgb(38, 184, 9);
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
+
 }
 
-.danhgia {
+.table .danhgia {
     font-size: 13px;
     margin-bottom: 10px;
+}
+
+.table #score{
+    border-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .xemtatca{

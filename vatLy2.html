@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="refresh" content="3" > -->
+    <title>Đinh Trần Phương</title>
+    <link rel="stylesheet" href="vatLy1.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <header>
+
+            <ul>
+                <li ></li>
+                <li><a href="/home.html">Home</a></li> 
+                <li><a href="/ranking.html">Rankings</a></li>
+                <li><a href="/rate.html">Voting</a></li>
+                <li class="sign-up"><a href="login.html"><i class="far fa-user-circle"></i></a></li>
+            </ul>
+            <div class="banner-project">
+                <img style="width: 400px" src="/Ảnh/Untitled-1.png" alt="Logo">
+                
+            </div>
+            <div></div>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Tìm kiếm giáo viên">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            
+        </header>
+    
+
+        <div class="container">
+            <img class="anhgv" src="/Ảnh/ảnh phương.jpg" alt="Teacher's picture">
+            <div class="description">
+                <div class="name">Đinh Trần Phương</div>
+                <ul class="personal-info">
+                    <li id="bullet">Ngày sinh: 28/1/1981</li>
+                    <li id="bullet">Quê quán: Hà Nội</li>
+                    <li id="bullet">Môn học: Vật lý</li>
+                    <li id="bullet">Chức vụ: Giáo viên lý, Tiến sĩ Vật lý hạt</li>
+                    <li id="bullet">Chủ nhiệm: Không</li>
+                </ul>
+
+<!-- ///////////// Input Range  ///////////////////////////    -->
+                <div class="range-input">
+                    Hãy đánh giá giáo viên này: 
+                    <br>
+                    <br>
+                    <ul class="criteria-list">
+                        <li id="bullet-list" class="criteria-name">
+                            Cách dạy:
+                            <input type="range" value="0" class="slider" id="myRange" name="points" min="0" max="5">
+                            <button class="btn" onclick="dislayPoints()">SUBMIT</button>
+                        </li>
+                        <li id="bullet-list" class="criteria-name">
+                            Tâm lý:
+                            <input type="range" value="0" class="slider" id="myRange" name="points" min="0" max="5">
+                            <button class="btn" onclick="dislayPoints()">SUBMIT</button>
+                        </li>
+                        <li id="bullet-list" class="criteria-name">
+                            Điểm:
+                            <input type="range" value="0" class="slider" id="myRange" name="points" min="0" max="5">
+                            <button class="btn" onclick="dislayPoints()">SUBMIT</button>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>       
+        </div>
