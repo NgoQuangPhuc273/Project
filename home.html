@@ -19,9 +19,9 @@
         <header>
             <ul>
                 <li ></li>
-                <li><a href="home.html">Home</a></li> 
-                <li><a href="ranking.html">Rankings</a></li>
-                <li><a href="rate.html">Voting</a></li>
+                <li><a href="home.html">Trang chủ</a></li> 
+                <li><a href="ranking.html">Xếp hạng</a></li>
+                <li><a href="rate.html">Đánh giá</a></li>
                 <li class="sign-up"><a href="login.html"><i class="far fa-user-circle"></i></a></li>
             </ul>
             <div class="banner-project">
@@ -30,12 +30,12 @@
             </div>
             <div></div>
             <div class="search-box">
-                <input class="search-txt" type="text" name="" placeholder="Tìm kiếm giáo viên" >
+                <input class="search-txt" type="text" name="search" placeholder="Tìm kiếm giáo viên" id="search">
                 <a class= "search-btn" href="#">
                     <i class="fas fa-search"></i>
                 </a>
             </div>
-            
+            <ul class="list-group" id="list"></ul>
         </header>
         <br>
         <br>
@@ -85,18 +85,10 @@
                 </div>
                 <div id="popup1">
                     <h2>Đánh giá</h2>
-                    <p>Nội dung các thứ các thứ
-                        - Thật ra thì chức năng của thuộc tính class cũng gần giống với thuộc tính id,
-                         đó chính là dùng để đặt tên cho phần tử. Tuy nhiên, việc đặt tên class khác với tên id ở chỗ 
-                         là với cùng một tên class thì chúng ta có thể dùng để đặt cho nhiều phần tử khác nhau 
-                         (nếu so sánh một phần tử trong trang web giống như một người công dân Việt Nam thì tên class cũng giống 
-                         như một cái biệt danh, mà biệt danh thì có thể dùng để đặt cho nhiều người khác nhau)
-    
-                        - Để khai báo class cho một phần tử thì chúng ta đặt thuộc
-                         tính class vào bên trong thẻ mở của phần tử với cú pháp class="tên class". 
-                         Sau khi đã khai báo class, nếu muốn định dạng cho phần tử thì chúng ta chỉ cần gọi thẳng tên class của nó 
-                         với cú pháp .tên class
+                    <p>Với Ams Teachers, ngoài xem lại những bình luận, đánh giá khách quan nhất từ những người đi trước, các bạn còn có thể tự mình để lại những đánh giá và bình luận dựa trên trải nghiệm của chính bản thân mình qua mục "Đánh giá giáo viên". 
+
                     </p>
+                    <p>Tất cả sẽ được lưu lại trên chính trang web, qua đó thể hiện được rõ ràng và chân thực nhất về chất lượng học tập và đời sống xã hội ở Ams.</p>
                     <a href="#" onclick="toggle1()">Đóng</a>
                 </div>
                 <script type="text/javascript">
@@ -123,25 +115,11 @@
             </div>
             <div id="popup2">
                 <h2>Xếp hạng</h2>
-                <p>Nội dung các thứ các thứ
-                    The HTML Certificate documents your knowledge of HTML.
-
-                    The CSS Certificate documents your knowledge of advanced CSS.
-
-                    The JavaScript Certificate documents your knowledge of JavaScript and HTML DOM.
-
-                    The Python Certificate documents your knowledge of Python.
-
-                    The jQuery Certificate documents your knowledge of jQuery.
-
-                    The SQL Certificate documents your knowledge of SQL.
-
-                    The PHP Certificate documents your knowledge of PHP and MySQL.
-
-                    The XML Certificate documents your knowledge of XML, XML DOM and XSLT.
-
-                    The Bootstrap Certificate documents your knowledge of the Bootstrap framework.
+                <p>Những con số không nói dối!</p>
+                <p>Bảng xếp hạng của Ams Teachers là công cụ chính xác và đơn giản nhất nếu bạn muốn tìm hiểu về đời sống ở Ams. Phương pháp dạy học, điểm chác và cả độ "thoải mái" của từng giáo viên trong từng tiết học đều được thống kê và sắp xếp theo thứ tự 
+                    yêu thích của học sinh. 
                 </p>
+                <p>Không chỉ là đơn thuần là 1 bảng xếp hạng khô khan, Ams Teachers mang đến 1 không gian mở cho những Amsers tự do thể hiện ý kiến cá nhân theo 1 cách khách quan nhất.</p>
                 <a href="#" onclick="toggle3()">Đóng</a>
             </div>
             <script type="text/javascript">
@@ -164,5 +142,8 @@
         
          
     </section>
+
+</script>
+<script src="home.js"></script>
 </body>
 </html>
